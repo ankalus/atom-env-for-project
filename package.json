@@ -1,0 +1,20 @@
+{
+  "name": "atom-env-for-project",
+  "main": "./lib/init",
+  "version": "0.1.0",
+  "description": "Loads environment variables from file.",
+  "keywords": [
+    "env",
+    "project"
+  ],
+  "activationCommands": {},
+  "repository": "https://github.com/ankalus/atom-env-for-project",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.6.0"
+  },
+  "dependencies": {
+    "fs-plus": "^2.8.1",
+    "node-env-file": "^0.1.8"
+  }
+}
